@@ -1,0 +1,11 @@
+# directories
+__ignore/
+coverage/
+node_modules/
+test/e2e/reports/
+
+# files
+.DS_Store
+npm-debug.log
+Thumbs.db
+TODO.md

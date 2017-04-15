@@ -1,0 +1,43 @@
+{
+  "name": "nemo3-example",
+  "version": "1.0.0",
+  "description": "an example repo using nemo v3",
+  "author": "skratchdot",
+  "license": "MIT",
+  "scripts": {
+    "clean": "rimraf test/e2e/reports",
+    "format": "prettier --write --single-quote 'test/**/*.js' '.*.js'",
+    "lint": "eslint .",
+    "test": "jest",
+    "e2e": "DEBUG=nemo:* jest --config ./test/e2e/config/jest.json"
+  },
+  "devDependencies": {
+    "babel-cli": "^6.24.1",
+    "babel-eslint": "^7.2.2",
+    "babel-jest": "^19.0.0",
+    "babel-preset-env": "^1.4.0",
+    "eslint": "^3.19.0",
+    "eslint-plugin-import": "^2.2.0",
+    "fs-extra": "^2.1.2",
+    "jest": "^19.0.2",
+    "nemo": "github:paypal/nemo#3.0-alpha",
+    "nemo-view": "github:paypal/nemo-view#3.x",
+    "prettier": "^1.1.0",
+    "rimraf": "^2.6.1"
+  },
+  "keywords": [
+    "nemo",
+    "nemo3",
+    "example",
+    "chrome",
+    "canary",
+    "headless",
+    "functional",
+    "test",
+    "jest"
+  ],
+  "jest": {
+    "verbose": true,
+    "rootDir": "./test/unit/"
+  }
+}

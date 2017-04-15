@@ -1,0 +1,7 @@
+{
+  "searchInput": "[name='q']",
+  "searchButton": "[name='btnG']",
+  "linkAmazon": "a[href='https://www.amazon.com/']",
+  "linkFacebook": "a[href='https://www.facebook.com/']",
+  "linkPayPal": "a[href='https://www.paypal.com/']"
+}
