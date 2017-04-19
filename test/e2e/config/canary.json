@@ -10,7 +10,6 @@
           "browserName": "chrome",
           "chromeOptions": {
             "args": [
-              "incognito"
             ],
             "binary": "/Applications/Google Chrome Canary.app/Contents/MacOS/Google Chrome Canary"
           }
@@ -18,18 +17,6 @@
       ]
     }
   },
-  "plugins": {
-    "view": {
-      "module": "nemo-view",
-      "arguments": [
-        "path:locator"
-      ]
-    }
-  },
-  "data": {
-    "urlAmazon": "https://www.amazon.com/",
-    "urlFacebook": "https://www.facebook.com/",
-    "urlGoogle": "https://www.google.com/",
-    "urlPayPal": "https://www.paypal.com/"
-  }
+  "plugins": "import:./plugins",
+  "data": "import:./data"
 }

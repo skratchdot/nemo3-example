@@ -1,0 +1,8 @@
+{
+  "view": {
+    "module": "nemo-view",
+    "arguments": [
+      "path:locator"
+    ]
+  }
+}

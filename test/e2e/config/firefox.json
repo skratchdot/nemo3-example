@@ -1,6 +1,6 @@
 {
   "driver": {
-    "browser": "chrome"
+    "browser": "firefox"
   },
   "plugins": "import:./plugins",
   "data": "import:./data"
