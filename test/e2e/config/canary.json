@@ -10,6 +10,7 @@
           "browserName": "chrome",
           "chromeOptions": {
             "args": [
+              "start-maximized"
             ],
             "binary": "/Applications/Google Chrome Canary.app/Contents/MacOS/Google Chrome Canary"
           }
@@ -17,6 +18,12 @@
       ]
     }
   },
-  "plugins": "import:./plugins",
+  "DEFAULT_PLUGINS": "import:./plugins",
+  "plugins": {
+    "view": "config:DEFAULT_PLUGINS.view",
+    "cdp": {
+      "module": "path:./plugins/nemo-cdp"
+    }
+  },
   "data": "import:./data"
 }
